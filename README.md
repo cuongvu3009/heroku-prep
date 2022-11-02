@@ -44,3 +44,5 @@ if (process.env.NODE_ENV === 'production') { <br>
  "proxy": "http://localhost:5000"
  
  ## 7. axios call must include '/api/v1'
+ 
+ ## 8. .env file, package.json and package-lock.json must be bring to src folder 
