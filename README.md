@@ -1,6 +1,6 @@
 # heroku-prep
 
-## 1. Create Procfile
+## 1. Create Procfile inside server folder
 
 web: node server.js
 
