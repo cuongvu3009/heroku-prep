@@ -21,7 +21,9 @@ if (process.env.NODE_ENV === 'production') {
   app.get('/', (req, res) => res.send('Please set to production'));
 }
 
-## 3. package.json in server folder
+## 3. Install path and concurrently
+
+## 4. package.json in server folder
 
 "scripts": {
     "start": "node server/server.js",
@@ -36,9 +38,9 @@ if (process.env.NODE_ENV === 'production') {
     "node": "16.x"
   }
   
- ## 4. Add config vars environments and buildpacks on heroku
+ ## 5. Add config vars environments and buildpacks on heroku
  
- ## 5. package.json in client folder
+ ## 6. package.json in client folder
  "proxy": "http://localhost:5000"
  
- ## 6. axios call must include '/api/v1'
+ ## 7. axios call must include '/api/v1'
